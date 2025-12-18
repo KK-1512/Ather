@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-st.title("EV Range Predictor")
+st.title("Ather Ride Range Estimator")
 st.markdown("### **Done by Krishnakumar**")
 st.image("Ather.jpg")
 
