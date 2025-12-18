@@ -2,7 +2,8 @@ import streamlit as st
 import joblib
 import pandas as pd
 
-st.title("⚡ EV Range Predictor (Simple Linear Regression)")
+st.title("EV Range Predictor")
+st.markdown("### **Done by Krishnakumar**")
 
 # Load model
 model = joblib.load("model.pkl")
