@@ -4,6 +4,8 @@ import pandas as pd
 
 st.title("EV Range Predictor")
 st.markdown("### **Done by Krishnakumar**")
+st.image("Ather.jpg")
+
 
 # Load model
 model = joblib.load("model.pkl")
