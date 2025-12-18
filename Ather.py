@@ -8,7 +8,7 @@ st.title("⚡ EV Scooter Range Predictor (Linear Regression Model)")
 st.write("Enter parameters to estimate riding range")
 
 # Load model
-model = joblib.load("ev_model.pkl")
+model = joblib.load("Ather.pkl")
 
 # Inputs
 battery = st.slider("Battery Level (%)", min_value=10, max_value=100, value=60)
