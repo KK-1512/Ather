@@ -8,7 +8,7 @@ st.title("⚡ EV Scooter Range Predictor")
 st.caption("Mini Machine Learning demo for interview presentation")
 
 # Load model
-model = joblib.load("model/ev_range_model.pkl")
+model = joblib.load("Ather.pkl")
 
 battery = st.slider("Battery Level (%)", 10, 100, 60)
 speed = st.slider("Average Speed (km/h)", 20, 80, 40)
